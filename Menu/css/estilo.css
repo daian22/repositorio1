@@ -1,30 +1,29 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-img{
-    width: 50%;
+.main{
+    width: 100%;
 }
-nav{
-    width: 280px;
-    background-color: silver;
-    margin: 0 auto;
-    padding: 20px 0;
+.one{
+    background-image: url(../Fondodepan.png);
+    background-position: center;
+    width: 100%;
+    height: 100%;
 }
-a{
-    padding-left: 10px;
-    text-decoration: none;
-    color: blueviolet;
-}
-a:hover{
-    color: blue;
-    border-bottom: 2px solid salmon;
-}
-header{
+.cabecera{
+    background: linear-gradient(180deg, (0,0,0),(0,0,0));
+    width: 100%;
+    height: 100px;
     display: flex;
-    background-color: beige;
-    justify-content: space-evenly;
+    overflow: hidden;
+}
+.logo{
+    width: 30%;
+    display: flex;
     align-items: center;
+    padding-left: 30px;
 }
 .svg-estilo{
     width: 15%;
@@ -33,26 +32,35 @@ header{
     padding: 10px;
     box-shadow: 2px 3px 2px gray;
 }
-.contenedor-logo{
+a:hover{
+    color: blue;
+    border-bottom: 2px solid papayawhip;
+}
+.navegacion{
     display: flex;
+    flex-direction: row;
+    justify-content: end;
     align-items: center;
+    padding-right: 40px;
+    width: 40%;
+}
+.link{
+    color: white;
+    padding: 70px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.banner-textos{
+    color: white;
+    width: 80%;
+    padding: 20px;
 }
 .textologo{
-    margin-left: 30px;
+    color: white;
 }
-.hero{
-    display: flex;
-    background-color: beige;
-    align-items: center;
-}
-.hero-img{
-    width: 50%;
-  border-top-left-radius: 40%;
-  border-bottom-right-radius: 40%;
-  border-top-right-radius: 40%;
-  border-bottom-left-radius: 40%;
-}
-.uno{
+
+
+.two{
 display: flex;
 background-color: beige;
 }
@@ -66,4 +74,10 @@ hr{
 }
 span{
     margin-left: 15px;
+}
+.two{
+    background-color: bisque;
+    background-position: center;
+    width: 100%;
+    height: 100%;
 }
