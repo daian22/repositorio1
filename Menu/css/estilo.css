@@ -10,7 +10,7 @@
     background-image: url(../Fondodepan.png);
     background-position: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 .cabecera{
     background: linear-gradient(180deg, (0,0,0),(0,0,0));
@@ -79,5 +79,27 @@ span{
     background-color: bisque;
     background-position: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+}
+
+
+.three{
+ width: 100%;
+ height: 80vh;
+ background-color: aquamarine;   
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.text{
+    background-color: slateblue;
+    width: 70%;
+
+}
+.fotos{
+    background-color: azure;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
